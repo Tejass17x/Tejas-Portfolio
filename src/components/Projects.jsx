@@ -12,7 +12,7 @@ export default function Projects() {
         'Live preview & code export',
         'Secure backend API layer',
       ],
-      link: '#',
+      link: 'https://chat-gpt-buildathon.vercel.app/',
     },
     {
       title: 'MERN Chat Application',
@@ -24,7 +24,19 @@ export default function Projects() {
         'Persistent chat storage',
         'Responsive UI design',
       ],
-      link: '#',
+      link: 'https://mern-chat-frontend-isum.onrender.com',
+    },
+    {
+      title: 'Food-ordering Application',
+      description: 'Full-stack real-time chat application with JWT authentication and persistent storage',
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Socket.IO', 'JWT'],
+      features: [
+        'Real-time workflow',
+        'User authentication & authorization',
+        'Persistent storage',
+        'Responsive UI design',
+      ],
+      link: 'https://food-ordering-system-pink.vercel.app/',
     },
     {
       title: 'Phishing Email Detector',

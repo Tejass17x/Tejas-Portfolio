@@ -200,15 +200,18 @@ export default function Hero({ setActiveSection }) {
           >
             View Projects
           </motion.button>
-
+             <a href="https://drive.google.com/file/d/17IVlK36W7gphnJf1KOQDkBugPNnHFsPe/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
           <motion.button
-            onClick={() => setActiveSection('contact')}
+            onClick={() => setActiveSection()}
             className="px-8 py-3 border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 transition-all"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Get In Touch
+            
+              Resume
+            
           </motion.button>
+          </a>
         </motion.div>
 
         <motion.div
