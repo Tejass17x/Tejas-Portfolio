@@ -200,7 +200,7 @@ export default function Hero({ setActiveSection }) {
           >
             View Projects
           </motion.button>
-             <a href="https://drive.google.com/file/d/17IVlK36W7gphnJf1KOQDkBugPNnHFsPe/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
+             <a href="https://drive.google.com/file/d/1tgh7rkjUsZGgQNNmBArgaDjhkci2u-6r/view?usp=sharing" target='_blank' rel='noopener noreferrer'>
           <motion.button
             onClick={() => setActiveSection()}
             className="px-8 py-3 border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 transition-all"
